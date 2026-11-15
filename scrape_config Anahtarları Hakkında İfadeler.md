@@ -46,6 +46,8 @@ Aşağı kaydırıldığında yüklenen içerikleri (infinite scroll gibi) elde 
 
 Gereksiz kaydırmalar işlem süresini artırabilir; her dinamik içeriğin yüklenmesini garanti etmez.
 
+------------------------------------------------------------------------
+
 ### `format_options`
 
 #### `only_content`
