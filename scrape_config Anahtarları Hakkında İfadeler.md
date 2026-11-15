@@ -51,6 +51,7 @@ Gereksiz kaydırmalar işlem süresini artırabilir; her dinamik içeriğin yük
 #### `only_content`
 
 Web sayfasındaki ana içerik bölümünün alınmasını sağlayarak gezinme menüleri ve sayfa dışı bazı öğelerin sonuçtan çıkarılmasına yardımcı olur. 
+
 RAG uygulamalarında gereksiz metinleri azaltıp belge içeriğine odaklanmak amacıyla tercih edilir. 
 
 Ancak yorumlar, reklamlar veya ilgili içerik alanları gibi ana içerik dışındaki bazı bölümler tamamen temizlenmeyebilir.
@@ -58,6 +59,7 @@ Ancak yorumlar, reklamlar veya ilgili içerik alanları gibi ana içerik dışı
 #### `no_links`
 
 Web sayfasındaki bağlantıların sonuç içeriğine eklenmesini engeller. 
+
 Bağlantı metinlerinin RAG belgelerinde gereksiz kalabalık oluşturmasını önlemek ve daha sade bir metin elde etmek amacıyla tercih edilir. 
 
 Ancak bağlantıların yönlendirdiği kaynaklara veya ilgili sayfalara ihtiyaç duyulan senaryolarda faydalı bilgilerin kaybolmasına neden olabilir.
@@ -65,6 +67,7 @@ Ancak bağlantıların yönlendirdiği kaynaklara veya ilgili sayfalara ihtiyaç
 #### `no_images`
 
 Web sayfasındaki görsellerin sonuç içeriğine eklenmesini engeller. 
+
 Yalnızca metin tabanlı RAG uygulamalarında görsel öğelere ihtiyaç duyulmadığından gereksiz içerik ve işleme yükünü azaltmak amacıyla tercih edilir. 
 
 Ancak görsellerin açıklamaları, alternatif metinleri veya görsel referansları uygulama açısından önemliyse bu bilgilerin kaybolmasına neden olabilir.
